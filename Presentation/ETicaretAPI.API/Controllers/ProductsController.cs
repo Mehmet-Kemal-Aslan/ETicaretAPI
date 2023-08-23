@@ -11,22 +11,26 @@ namespace ETicaretAPI.API.Controllers
     {
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
-        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository)
+        private readonly ICustomerWriteRepository _customerWriteRepository;
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly IOrderReadRepository _orderReadRepository;
+        public ProductsController(IProductReadRepository productReadRepository, IProductWriteRepository productWriteRepository,
+            ICustomerWriteRepository customerWriteRepository, IOrderWriteRepository orderWriteRepository,
+            IOrderReadRepository orderReadRepository)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
+            _customerWriteRepository = customerWriteRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _orderReadRepository = orderReadRepository;
         }
 
         [HttpGet]
         public async Task Get()
         {
-            await _productWriteRepository.AddRangeAsync(new()
-            {
-                new() { Id = 1, Name = "Product 1", Price = 100, Stock = 10, CreatedDate = DateTime.UtcNow},
-                new() { Id = 2, Name = "Product 2", Price = 200, Stock = 20, CreatedDate = DateTime.UtcNow},
-                new() { Id = 3, Name = "Product 3", Price = 300, Stock = 130, CreatedDate = DateTime.UtcNow},
-            });
-            await _productWriteRepository.SaveAsync();
+            Order order = await _orderReadRepository.GetByIdAsync(1);
+            order.Address = "Maslak"; 
+            await _orderWriteRepository.SaveAsync();
         }
 
         [HttpGet("id")]
