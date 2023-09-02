@@ -52,7 +52,7 @@ namespace ETicaretAPI.API.Controllers
             Product product = await _productReadRepository.GetByIdAsync(model.Id);
             product.Stock = model.Stock;
             product.Price = model.Price;
-            product.Name = model.ProductName;
+            product.Name = model.Name;
             await _productWriteRepository.SaveAsync();
             return Ok();
         }
