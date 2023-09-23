@@ -19,11 +19,13 @@ namespace ETicaretAPI.API.Controllers
         readonly IFileService _fileService;
         public ProductsController(IProductReadRepository productReadRepository, 
                                   IProductWriteRepository productWriteRepository, 
-                                  IWebHostEnvironment webHostEnvironment)
+                                  IWebHostEnvironment webHostEnvironment,
+                                  IFileService fileService)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
             this._webHostEnvironment = webHostEnvironment;
+            _fileService = fileService;
         }
 
         [HttpGet]
