@@ -1,4 +1,7 @@
 ﻿using ETicaretAPI.Application.Repositories;
+using ETicaretAPI.Application.Repositories.File;
+using ETicaretAPI.Application.Repositories.InvoiceFile;
+using ETicaretAPI.Application.Repositories.ProductImageFile;
 using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.Services;
 using ETicaretAPI.Application.ViewModels.Products;
@@ -17,15 +20,33 @@ namespace ETicaretAPI.API.Controllers
         private readonly IProductReadRepository _productReadRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
         readonly IFileService _fileService;
-        public ProductsController(IProductReadRepository productReadRepository, 
-                                  IProductWriteRepository productWriteRepository, 
+        readonly IFileReadRepository _fileReadRepository;
+        readonly IFileWriteRepository _fileWriteRepository;
+        readonly IProductImageFileReadRepository _productImageFileReadRepository;
+        readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
+        readonly IInvoiceFileReadRepository _invoiceFileReadRepository;
+        readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
+        public ProductsController(IProductReadRepository productReadRepository,
+                                  IProductWriteRepository productWriteRepository,
                                   IWebHostEnvironment webHostEnvironment,
-                                  IFileService fileService)
+                                  IFileService fileService, 
+                                  IFileReadRepository fileReadRepository,
+                                  IFileWriteRepository fileWriteRepository,
+                                  IInvoiceFileReadRepository invoiceFileReadRepository,
+                                  IInvoiceFileWriteRepository invoiceFileWriteRepository,
+                                  IProductImageFileReadRepository productImageFileReadRepository,
+                                  IProductImageFileWriteRepository productImageFileWriteRepository)
         {
             _productReadRepository = productReadRepository;
             _productWriteRepository = productWriteRepository;
             this._webHostEnvironment = webHostEnvironment;
             _fileService = fileService;
+            _fileReadRepository = fileReadRepository;
+            _fileWriteRepository = fileWriteRepository;
+            _invoiceFileReadRepository = invoiceFileReadRepository;
+            _invoiceFileWriteRepository = invoiceFileWriteRepository;
+            _productImageFileReadRepository = productImageFileReadRepository;
+            _productImageFileWriteRepository = productImageFileWriteRepository;
         }
 
         [HttpGet]
@@ -90,7 +111,30 @@ namespace ETicaretAPI.API.Controllers
         [HttpPost("[action]")]
         public async Task<IActionResult> Upload()
         {
-            await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            //var data = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            //await _productImageFileWriteRepository.AddRangeAsync(data.Select(d => new ProductImageFile()
+            //{
+            //    FileName = d.fileName,
+            //    Path = d.path
+            //}).ToList());
+            //await _productImageFileWriteRepository.SaveAsync();
+
+            //var data = await _fileService.UploadAsync("resource/invoice", Request.Form.Files);
+            //await _invoiceFileWriteRepository.AddRangeAsync(data.Select(d => new InvoiceFile()
+            //{
+            //    FileName = d.fileName,
+            //    Path = d.path,
+            //    Price = new Random().Next()
+            //}).ToList()); ;
+            //await _invoiceFileWriteRepository.SaveAsync();
+
+            var data = await _fileService.UploadAsync("resource/files", Request.Form.Files);
+            await _fileWriteRepository.AddRangeAsync(data.Select(d => new ETicaretAPI.Domain.Entities.File()
+            {
+                FileName = d.fileName,
+                Path = d.path
+            }).ToList()); ;
+            await _invoiceFileWriteRepository.SaveAsync();
             return Ok();
         }
     }
