@@ -45,13 +45,11 @@ namespace ETicaretAPI.Infrastructure.Services.Local
 
         public async Task<List<(string fileName, string path)>> UploadAsync(string path, IFormFileCollection files)
         {
-            
             string uploadPath = Path.Combine(_webHostEnvionment.ContentRootPath, path);
             if (!Directory.Exists(uploadPath))
                 Directory.CreateDirectory(uploadPath);
 
             List<(string fileName, string path)> data = new();
-            List<bool> results = new();
             foreach (IFormFile file in files)
             {
 
@@ -59,7 +57,7 @@ namespace ETicaretAPI.Infrastructure.Services.Local
                 data.Add((file.Name, $"{uploadPath}\\{file.Name}"));
             }
 
-            return null;
+            return data;
             
         }
     }

@@ -11,4 +11,9 @@
     <ProjectReference Include="..\ETicaretAPI.Persistence\ETicaretAPI.Persistence.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Storage\Azure\" />
+    <Folder Include="Services\Storage\AWS\" />
+  </ItemGroup>
+
 </Project>
