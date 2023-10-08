@@ -1,13 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "fHBvNpuMzdDB3JZ9Mr4J95zedUPQmZCSYCS1H3HzuF41E8KTjusuhUj6njD5y3qRm1OzOL9HlhhLOjvnOi6Jvw==",
+  "dgSpecHash": "Yg2DLqHmO06aZgVT+3x/VLBTjLHHKwesjMe6un2A6i+mMwj2wRqQEPTZs2HakzgcUjoj389h7W6TyfujL7s6oQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mehmet Kemal\\Desktop\\Uygulama\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\ETicaretAPI.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\azure.storage.blobs\\12.12.0\\azure.storage.blobs.12.12.0.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\azure.storage.common\\12.11.0\\azure.storage.common.12.11.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.20\\microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.20\\microsoft.entityframeworkcore.analyzers.6.0.20.nupkg.sha512",
@@ -38,9 +42,13 @@
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.io.hashing\\6.0.0\\system.io.hashing.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
-    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512"
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

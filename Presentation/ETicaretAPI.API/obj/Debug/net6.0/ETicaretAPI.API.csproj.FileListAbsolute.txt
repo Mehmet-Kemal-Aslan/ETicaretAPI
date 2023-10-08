@@ -47,3 +47,9 @@ C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Infrastructure.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Infrastructure.pdb
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.IO.Hashing.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Memory.Data.dll
