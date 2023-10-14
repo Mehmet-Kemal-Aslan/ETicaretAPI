@@ -109,17 +109,31 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpPost("[action]")]
-        public async Task<IActionResult> Upload()
+        public async Task<IActionResult> Upload(int id)
         {
-            var data = await _storageService.UploadAsync("files", Request.Form.Files);
-            //var data = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
-            await _productImageFileWriteRepository.AddRangeAsync(data.Select(d => new ProductImageFile()
+            List<(string fileName, string pathOrContainerName)> result = await _storageService.UploadAsync("photo-images", Request.Form.Files);
+
+            Product product = await _productReadRepository.GetByIdAsync(id);
+            
+            await _productImageFileWriteRepository.AddRangeAsync(result.Select(r => new ProductImageFile
             {
-                FileName = d.fileName,
-                Path = d.pathOrContainerName,
-                Storage = _storageService.StorageName
+                FileName = r.fileName,
+                Path = r.pathOrContainerName,
+                Storage = _storageService.StorageName,
+                Products = new List<Product>() { product }
             }).ToList());
+
             await _productImageFileWriteRepository.SaveAsync();
+
+            //var data = await _storageService.UploadAsync("files", Request.Form.Files);
+            ////var data = await _fileService.UploadAsync("resource/product-images", Request.Form.Files);
+            //await _productImageFileWriteRepository.AddRangeAsync(data.Select(d => new ProductImageFile()
+            //{
+            //    FileName = d.fileName,
+            //    Path = d.pathOrContainerName,
+            //    Storage = _storageService.StorageName
+            //}).ToList());
+            //await _productImageFileWriteRepository.SaveAsync();
 
             //var data = await _fileService.UploadAsync("resource/invoice", Request.Form.Files);
             //await _invoiceFileWriteRepository.AddRangeAsync(data.Select(d => new InvoiceFile()

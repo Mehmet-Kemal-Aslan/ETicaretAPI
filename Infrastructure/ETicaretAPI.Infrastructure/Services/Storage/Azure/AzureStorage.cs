@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 {
-    public class AzureStorage : Services.Storage.Storage, IAzureStorage
+    public class AzureStorage : Storage, IAzureStorage
     {
         readonly BlobServiceClient _blobServiceClient;
         BlobContainerClient _blobContainerClient;
@@ -42,7 +42,18 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
         {
             _blobContainerClient = _blobServiceClient.GetBlobContainerClient(containerName);
             await _blobContainerClient.CreateIfNotExistsAsync();
-            await _blobContainerClient.SetAccessPolicyAsync(PublicAccessType.BlobContainer);
+            try
+            {
+                await _blobContainerClient.SetAccessPolicyAsync(PublicAccessType.BlobContainer);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Hata oluştu: {ex.Message}");
+                if (ex.InnerException != null)
+                {
+                    Console.WriteLine($"Alt hata: {ex.InnerException.Message}");
+                }
+            }
 
             List<(string fileName, string pathOrContainerName)> data = new();
             foreach(IFormFile file in files)
@@ -51,7 +62,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 
                 BlobClient blobClient = _blobContainerClient.GetBlobClient(fileNewName);
                 await blobClient.UploadAsync(file.OpenReadStream());
-                data.Add((fileNewName, containerName));
+                data.Add((fileNewName, $"{containerName}/{fileNewName}"));
             }
 
             return data;

@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "ETicaretAPI.Infrastructure/1.0.0": {
         "dependencies": {
-          "Azure.Storage.Blobs": "12.12.0",
+          "Azure.Storage.Blobs": "12.18.0",
           "ETicaretAPI.Application": "1.0.0",
           "ETicaretAPI.Persistence": "1.0.0"
         },
@@ -16,7 +16,7 @@
           "ETicaretAPI.Infrastructure.dll": {}
         }
       },
-      "Azure.Core/1.24.0": {
+      "Azure.Core/1.35.0": {
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "System.Diagnostics.DiagnosticSource": "6.0.1",
@@ -27,33 +27,33 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "runtime": {
-          "lib/net5.0/Azure.Core.dll": {
-            "assemblyVersion": "1.24.0.0",
-            "fileVersion": "1.2400.22.20404"
+          "lib/net6.0/Azure.Core.dll": {
+            "assemblyVersion": "1.35.0.0",
+            "fileVersion": "1.3500.23.45706"
           }
         }
       },
-      "Azure.Storage.Blobs/12.12.0": {
+      "Azure.Storage.Blobs/12.18.0": {
         "dependencies": {
-          "Azure.Storage.Common": "12.11.0",
+          "Azure.Storage.Common": "12.17.0",
           "System.Text.Json": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Azure.Storage.Blobs.dll": {
-            "assemblyVersion": "12.12.0.0",
-            "fileVersion": "12.1200.22.25202"
+          "lib/net6.0/Azure.Storage.Blobs.dll": {
+            "assemblyVersion": "12.18.0.0",
+            "fileVersion": "12.1800.23.46203"
           }
         }
       },
-      "Azure.Storage.Common/12.11.0": {
+      "Azure.Storage.Common/12.17.0": {
         "dependencies": {
-          "Azure.Core": "1.24.0",
+          "Azure.Core": "1.35.0",
           "System.IO.Hashing": "6.0.0"
         },
         "runtime": {
-          "lib/netstandard2.0/Azure.Storage.Common.dll": {
-            "assemblyVersion": "12.11.0.0",
-            "fileVersion": "12.1100.22.25202"
+          "lib/net6.0/Azure.Storage.Common.dll": {
+            "assemblyVersion": "12.17.0.0",
+            "fileVersion": "12.1700.23.46203"
           }
         }
       },
@@ -350,26 +350,26 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Azure.Core/1.24.0": {
+    "Azure.Core/1.35.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+/qI1j2oU1S4/nvxb2k/wDsol00iGf1AyJX5g3epV7eOpQEP/2xcgh/cxgKMeFgn3U2fmgSiBnQZdkV+l5y0Uw==",
-      "path": "azure.core/1.24.0",
-      "hashPath": "azure.core.1.24.0.nupkg.sha512"
+      "sha512": "sha512-hENcx03Jyuqv05F4RBEPbxz29UrM3Nbhnr6Wl6NQpoU9BCIbL3XLentrxDCTrH54NLS11Exxi/o8MYgT/cnKFA==",
+      "path": "azure.core/1.35.0",
+      "hashPath": "azure.core.1.35.0.nupkg.sha512"
     },
-    "Azure.Storage.Blobs/12.12.0": {
+    "Azure.Storage.Blobs/12.18.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DYirbNIkP2KeCz+/7AP9Un8GkrmSfHSSE+J0k4pyIlI5d8wVWndZj5Pp74rNsgjE/jDRdr3dIhJHPQwHE4ifAg==",
-      "path": "azure.storage.blobs/12.12.0",
-      "hashPath": "azure.storage.blobs.12.12.0.nupkg.sha512"
+      "sha512": "sha512-IUqHRXnabXCzmmvkzqPK4FuGzLxmKSugDEt5Hm5B/JlJFR+aHDsPW4nCLbG0txThqBSKPqcBBU/oA6c5TaFJgA==",
+      "path": "azure.storage.blobs/12.18.0",
+      "hashPath": "azure.storage.blobs.12.18.0.nupkg.sha512"
     },
-    "Azure.Storage.Common/12.11.0": {
+    "Azure.Storage.Common/12.17.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BPZ1JwYvehHGoTSXhXfAmwtFYejJghE6dkKvpZtPIL0DulzSIJdll9OZI+h5W+3wLYK0yn5hc1r6mvId0q4npA==",
-      "path": "azure.storage.common/12.11.0",
-      "hashPath": "azure.storage.common.12.11.0.nupkg.sha512"
+      "sha512": "sha512-/h8SpUkxMuQy/MbNFeJQGmhYt3JnYfEiGeDojtNgLNzzhyDnRYgjF3ZKYgjORYQpn0Spr+4+v2MZy+0GNJBLrg==",
+      "path": "azure.storage.common/12.17.0",
+      "hashPath": "azure.storage.common.12.17.0.nupkg.sha512"
     },
     "FluentValidation/10.4.0": {
       "type": "package",
