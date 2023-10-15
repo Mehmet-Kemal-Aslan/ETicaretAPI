@@ -15,7 +15,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 
         public AzureStorage()
         {
-            _connectionString = "DefaultEndpointsProtocol=https;AccountName=minieticaretmka;AccountKey=KAls/ZF4SAxk6jKRSR7Xp935BP5mazT46+3+7gsB0xTln/9Qjw02phtepPD4z2y58yQNkYyR7Yzz+AStsfVKhQ==;EndpointSuffix=core.windows.net";
+            _connectionString = "DefaultEndpointsProtocol=https;AccountName=minieticaretmka;AccountKey=mu+77xddPRLzvs7cMPdraO+g8LJZzR4M7Wj4PomyjLQnhopSeoqjhrvYWi5XbdRev2lcXdpc7EKg+AStQJSCXQ==;EndpointSuffix=core.windows.net";
             _blobServiceClient = new BlobServiceClient(_connectionString);
             //_blobServiceClient = "DefaultEndpointsProtocol=https;AccountName=minieticaretmka;AccountKey=KAls/ZF4SAxk6jKRSR7Xp935BP5mazT46+3+7gsB0xTln/9Qjw02phtepPD4z2y58yQNkYyR7Yzz+AStsfVKhQ==;EndpointSuffix=core.windows.net";
         }
