@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cAV46DYRFksM0Xvf9CldQfGL5uzpFdUL+7/gqM5jt6FZ+lUmOmRMagOKr1DaIMQ9wtAB8UyL5NMD4xCZTUdYqw==",
+  "dgSpecHash": "GzzgqFskqnv3b+WSgHe98ZhUM256rhBNlbipyTg8P0QRHemNol5/4Yfy49byobdMQZOnpQ/SUdDSuu/8x2gsPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mehmet Kemal\\Desktop\\Uygulama\\ETicaretAPI\\Infrastructure\\ETicaretAPI.Persistence\\ETicaretAPI.Persistence.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,9 @@
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\fluentvalidation.aspnetcore\\10.4.0\\fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.4.0\\fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.20\\microsoft.entityframeworkcore.6.0.20.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.20\\microsoft.entityframeworkcore.abstractions.6.0.20.nupkg.sha512",
     "C:\\Users\\Mehmet Kemal\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.20\\microsoft.entityframeworkcore.analyzers.6.0.20.nupkg.sha512",
