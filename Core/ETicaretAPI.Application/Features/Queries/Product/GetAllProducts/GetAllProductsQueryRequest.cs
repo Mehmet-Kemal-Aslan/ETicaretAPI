@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ETicaretAPI.Application.Features.Queries.GetAllProducts
+namespace ETicaretAPI.Application.Features.Queries.Product.GetAllProducts
 {
     public class GetAllProductsQueryRequest : IRequest<GetAllProductsQueryResponse>
     {
