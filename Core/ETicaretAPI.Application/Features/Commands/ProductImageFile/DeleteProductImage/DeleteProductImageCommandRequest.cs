@@ -9,5 +9,7 @@ namespace ETicaretAPI.Application.Features.Commands.ProductImageFile.DeleteProdu
 {
     public class DeleteProductImageCommandRequest : IRequest<DeleteProductImageCommandResponse>
     {
+        public int Id { get; set; }
+        public int? ImageId { get; set; }
     }
 }

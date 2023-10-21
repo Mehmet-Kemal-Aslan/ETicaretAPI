@@ -8,5 +8,8 @@ namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductIm
 {
     public class GetProductImagesQueryResponse
     {
+        public string Path { get; set; }
+        public string FileName { get; set; }
+        public int Id { get; set; }
     }
 }
