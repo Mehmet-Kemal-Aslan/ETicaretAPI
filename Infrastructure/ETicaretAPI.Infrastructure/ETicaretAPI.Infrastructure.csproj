@@ -12,11 +12,14 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Services\Token\" />
     <Folder Include="Services\Storage\AWS\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Azure.Storage.Blobs" Version="12.18.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.20.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.20.0" />
   </ItemGroup>
 
 </Project>
