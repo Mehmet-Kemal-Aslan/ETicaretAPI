@@ -8,6 +8,7 @@ using ETicaretAPI.Infrastructure.Services.Storage.Azure;
 using ETicaretAPI.Application;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,16 +31,19 @@ builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddAuthentication("Admin").AddJwtBearer(options => options.TokenValidationParameters = new()
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer("Admin", options =>
 {
-    ValidateAudience = true,
-    ValidateIssuer = true,
-    ValidateLifetime = true,
-    ValidateIssuerSigningKey = true,
+    options.TokenValidationParameters = new()
+    {
+        ValidateAudience = true,
+        ValidateIssuer = true,
+        ValidateLifetime = true,
+        ValidateIssuerSigningKey = true,
 
-    ValidAudience = builder.Configuration["Token:Audience"],
-    ValidIssuer = builder.Configuration["Token:Issuer"],
-    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"]))
+        ValidAudience = "www.siteadý.com",
+        ValidIssuer = "www.benimAPI.com",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("Oylesine bir security key"))
+    };
 });
 
 var app = builder.Build();
@@ -56,6 +60,7 @@ app.UseCors();
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

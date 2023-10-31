@@ -69,3 +69,4 @@ C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll

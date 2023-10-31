@@ -24,7 +24,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage
         {
             Application.DTOs.Token token = new();
 
-            SymmetricSecurityKey securityKey = new(Encoding.UTF8.GetBytes(_configuration["Token:SecurityKey"]));
+            SymmetricSecurityKey securityKey = new(Encoding.UTF8.GetBytes("Oylesine bir security key"));
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
             token.Expiration = DateTime.UtcNow.AddMinutes(minute);
             JwtSecurityToken securityToken = new(
