@@ -1,16 +1,150 @@
 ﻿++Solution 'ETicaretAPI' ‎(5 of 5 projects)
 i:{00000000-0000-0000-0000-000000000000}:ETicaretAPI.sln
+++Presentation
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++ETicaretAPI.API
+i:{17d258f1-5848-4c04-9119-02c0e0bb12ac}:ETicaretAPI.API
+++Connected Services 
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>873
+++Dependencies
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>872
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>647
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>645
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:>646
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>644
+++Properties
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\
+++appsettings.json
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\appsettings.json
+++launchSettings.json
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\launchsettings.json
+++Controllers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\
+++resource
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\
+++Program.cs
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\program.cs
+++No service dependencies discovered
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>874
+++Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:analyzers
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:analyzers
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:analyzers
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:analyzers
+i:{23fcb568-fc56-485f-810c-673b6d929378}:analyzers
+++Frameworks
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:frameworks
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:frameworks
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:frameworks
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:frameworks
+i:{23fcb568-fc56-485f-810c-673b6d929378}:frameworks
+++Packages
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:packages
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:packages
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:packages
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:packages
+i:{23fcb568-fc56-485f-810c-673b6d929378}:packages
+++Projects
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:projects
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:projects
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:projects
+i:{23fcb568-fc56-485f-810c-673b6d929378}:projects
+++appsettings.Development.json
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\appsettings.development.json
+++IMediatR.cs
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\imediatr.cs
+++ProductsController.cs
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\productscontroller.cs
+++UsersController.cs
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\userscontroller.cs
+++invoice
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\invoice\
+++product-images
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\
+++Microsoft.AspNetCore.Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\microsoft.netcore.app
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\microsoft.netcore.app
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\microsoft.netcore.app
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\microsoft.netcore.app
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.20)
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>887
+++Microsoft.EntityFrameworkCore.Design (6.0.20)
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>885
+++Swashbuckle.AspNetCore (6.2.3)
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>886
+++ETicaretAPI.Application
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\eticaretapi.application.csproj
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\eticaretapi.application.csproj
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\eticaretapi.application.csproj
+i:{3cb84e1d-11c9-4916-9b98-cd423be82404}:ETicaretAPI.Application
+++ETicaretAPI.Infrastructure
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\eticaretapi.infrastructure.csproj
+i:{937437b2-9f7a-4919-8993-19d6f9c271e9}:ETicaretAPI.Infrastructure
+++ETicaretAPI.Persistence
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\eticaretapi.persistence.csproj
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\eticaretapi.persistence.csproj
+i:{937437b2-9f7a-4919-8993-19d6f9c271e9}:ETicaretAPI.Persistence
+++445248241839258.png
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\invoice\445248241839258.png
+++ada-3p.jpg
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\ada-3p.jpg
+++ada-3p-2.jpg
+i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\ada-3p-2.jpg
 ++Infrastructure
 i:{00000000-0000-0000-0000-000000000000}:Infrastructure
-++ETicaretAPI.Infrastructure
-i:{937437b2-9f7a-4919-8993-19d6f9c271e9}:ETicaretAPI.Infrastructure
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\bin\debug\net6.0\eticaretapi.infrastructure.dll
-++Dependencies
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>503
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>502
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>682
-i:{23fcb568-fc56-485f-810c-673b6d929378}:>500
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:>501
 ++Enums
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\enums\
 ++Filters
@@ -32,102 +166,37 @@ i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\
 ++Local
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\local\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\local\
-++LocalStorage.cs
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\local\localstorage.cs
+++Storage.cs
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\storage.cs
 ++StorageService.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\storageservice.cs
+++TokenHandler.cs
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\tokenhandler.cs
+++Token
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\token\
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\token\
 ++FileService.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\fileservice.cs
 ++ServiceRegistration.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\serviceregistration.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\serviceregistration.cs
-++Analyzers
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:analyzers
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:analyzers
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:analyzers
-i:{23fcb568-fc56-485f-810c-673b6d929378}:analyzers
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:analyzers
-++Frameworks
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:frameworks
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:frameworks
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:frameworks
-i:{23fcb568-fc56-485f-810c-673b6d929378}:frameworks
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:frameworks
-++Packages
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:packages
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:packages
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:packages
-i:{23fcb568-fc56-485f-810c-673b6d929378}:packages
-++Projects
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:projects
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:projects
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:projects
-i:{23fcb568-fc56-485f-810c-673b6d929378}:projects
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\serviceregistration.cs
 ++StorageType.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\enums\storagetype.cs
 ++ValidationFilter.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\filters\validationfilter.cs
 ++NameOperation.cs
 i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\operations\nameoperation.cs
-++Microsoft.AspNetCore.App.Analyzers
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.20\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++System.Text.Json.SourceGeneration
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.NETCore.App
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\microsoft.netcore.app
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\microsoft.netcore.app
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\microsoft.netcore.app
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\microsoft.netcore.app
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\microsoft.netcore.app
-++Azure.Storage.Blobs (12.12.0)
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>766
-++ETicaretAPI.Application
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\bin\debug\net6.0\eticaretapi.application.dll
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\bin\debug\net6.0\eticaretapi.application.dll
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\bin\debug\net6.0\eticaretapi.application.dll
-i:{3cb84e1d-11c9-4916-9b98-cd423be82404}:ETicaretAPI.Application
-++ETicaretAPI.Persistence
-i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\bin\debug\net6.0\eticaretapi.persistence.dll
-i:{937437b2-9f7a-4919-8993-19d6f9c271e9}:ETicaretAPI.Persistence
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\bin\debug\net6.0\eticaretapi.persistence.dll
+++LocalStorage.cs
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.infrastructure\services\storage\local\localstorage.cs
+++Azure.Storage.Blobs (12.18.0)
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>914
+++Microsoft.IdentityModel.Tokens (6.20.0)
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>915
+++System.IdentityModel.Tokens.Jwt (6.20.0)
+i:{5b32af78-06c8-46a5-a05f-807a4fedfa51}:>913
 ++Contexts
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\contexts\
-++ETicaretAPIDbContext.cs
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\contexts\eticaretapidbcontext.cs
 ++Migrations
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\
 ++Repositories
@@ -137,6 +206,8 @@ i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\configuration.cs
 ++DesignTimeDbContextFactory.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\designtimedbcontextfactory.cs
+++ETicaretAPIDbContext.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\contexts\eticaretapidbcontext.cs
 ++20230816175737_mig_1.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20230816175737_mig_1.cs
 ++20230822191304_mig_2.cs
@@ -147,6 +218,12 @@ i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20230927183503_mig_4.cs
 ++20231004184702_mig_5.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231004184702_mig_5.cs
+++20231014162233_mig_6.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231014162233_mig_6.cs
+++20231014162607_mig_7.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231014162607_mig_7.cs
+++20231027184437_mig_8.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231027184437_mig_8.cs
 ++ETicaretAPIDbContextModelSnapshot.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\eticaretapidbcontextmodelsnapshot.cs
 ++Customer
@@ -163,27 +240,31 @@ i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\repositories\order\
 ++Product
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\product\
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\repositories\product\
 ++ProductImageFile
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\productimagefile\
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\productimagefile\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\repositories\productimagefile\
 ++ReadRepository.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\readrepository.cs
 ++WriteRepository.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\writerepository.cs
 ++Microsoft.EntityFrameworkCore (6.0.20)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>754
-i:{23fcb568-fc56-485f-810c-673b6d929378}:>702
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>925
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>899
 ++Microsoft.EntityFrameworkCore.Tools (6.0.20)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>759
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>930
 ++Microsoft.Extensions.Configuration (6.0.1)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>758
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>929
 ++Microsoft.Extensions.Configuration.Json (6.0.0)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>756
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>927
 ++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>755
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>926
 ++Npgsql.EntityFrameworkCore.PostgreSQL (6.0.8)
-i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>757
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:>928
 ++20230816175737_mig_1.Designer.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20230816175737_mig_1.designer.cs
 ++20230822191304_mig_2.Designer.cs
@@ -194,6 +275,12 @@ i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20230927183503_mig_4.designer.cs
 ++20231004184702_mig_5.Designer.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231004184702_mig_5.designer.cs
+++20231014162233_mig_6.Designer.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231014162233_mig_6.designer.cs
+++20231014162607_mig_7.Designer.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231014162607_mig_7.designer.cs
+++20231027184437_mig_8.Designer.cs
+i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\migrations\20231027184437_mig_8.designer.cs
 ++CustomerReadRepository.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\customer\customerreadrepository.cs
 ++CustomerWriteRepository.cs
@@ -218,82 +305,109 @@ i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\productimagefile\productimagefilereadrepository.cs
 ++ProductImageFileWriteRepository.cs
 i:{8c17fc53-9bde-467e-aae7-84690503aad9}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\infrastructure\eticaretapi.persistence\repositories\productimagefile\productimagefilewriterepository.cs
-++Presentation
-i:{00000000-0000-0000-0000-000000000000}:Presentation
-++ETicaretAPI.API
-i:{17d258f1-5848-4c04-9119-02c0e0bb12ac}:ETicaretAPI.API
-++Connected Services 
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>683
-++SQL Server Database
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>767
-++Properties
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\
-++appsettings.json
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\appsettings.json
-++launchSettings.json
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\launchsettings.json
-++Controllers
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\
-++ProductsController.cs
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\controllers\productscontroller.cs
-++resource
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\
-++Program.cs
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\program.cs
-++SQL Server Database dependency is detected
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>768
-++Microsoft.AspNetCore.Analyzers
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\microsoft.aspnetcore.app
-++Microsoft.EntityFrameworkCore.Design (6.0.20)
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>724
-++Swashbuckle.AspNetCore (6.2.3)
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:>725
-++appsettings.Development.json
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\properties\appsettings.development.json
-++files
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\files\
-++invoice
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\invoice\
-++product-images
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\
-++1_1598452306_resim.png
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\files\1_1598452306_resim.png
-++110000074766224.jpg
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\files\110000074766224.jpg
-++445248241839258.png
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\invoice\445248241839258.png
-++ada-3p.jpg
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\ada-3p.jpg
-++ada-3p-2.jpg
-i:{808e8cc7-7571-4ac9-9052-a57dac03871b}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\presentation\eticaretapi.api\resource\product-images\ada-3p-2.jpg
 ++Core
 i:{00000000-0000-0000-0000-000000000000}:Core
+++ETicaretAPI.Domain
+i:{3cb84e1d-11c9-4916-9b98-cd423be82404}:ETicaretAPI.Domain
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\eticaretapi.domain.csproj
+++Entities
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\
+++Common
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\common\
+++Identity
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\identity\
+++Customer.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\customer.cs
+++File.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\file.cs
+++InvoiceFile.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\invoicefile.cs
+++Order.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\order.cs
+++Product.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\product.cs
+++ProductImageFile.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\productimagefile.cs
+++BaseEntity.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\common\baseentity.cs
+++AppRole.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\identity\approle.cs
+++AppUser.cs
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\identity\appuser.cs
+++Microsoft.AspNetCore.Identity (2.1.39)
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:>939
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.20)
+i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:>940
 ++Abstractions
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\
-++IAzureStorage.cs
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\azure\iazurestorage.cs
-++IStorage.cs
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\istorage.cs
-++IStorageService.cs
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\istorageservice.cs
+++ITokenHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\token\itokenhandler.cs
+++DTOs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\dtos\
+++Exceptions
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\exceptions\
+++Features
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\
+++Commands
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\
+++AppUser
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\
+++CreateUser
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\createuser\
+++LoginUser
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\loginuser\
+++LoginUserCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\loginuser\loginusercommandhandler.cs
+++LoginUserCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\loginuser\loginusercommandrequest.cs
+++LoginUserCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\loginuser\loginusercommandresponse.cs
+++DeleteProductImage
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\deleteproductimage\
+++UploadProductImage
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\uploadproductimage\
+++UploadProductImageCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\uploadproductimage\uploadproductimagecommandhandler.cs
+++UploadProductImageCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\uploadproductimage\uploadproductimagecommandrequest.cs
+++UploadProductImageCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\uploadproductimage\uploadproductimagecommandresponse.cs
+++Queries
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\
 ++RequestParameters
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\requestparameters\
 ++Validators
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\validators\
 ++ViewModels
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\viewmodels\
-++ILocalStorage.cs
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\local\ilocalstorage.cs
+++IStorage.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\istorage.cs
+++IStorageService.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\istorageservice.cs
+++Token.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\dtos\token.cs
+++NotFoundUserException.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\exceptions\notfounduserexception.cs
+++UserCreateFailedException.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\exceptions\usercreatefailedexception.cs
+++CreateUserCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\createuser\createusercommandhandler.cs
+++CreateUserCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\createuser\createusercommandrequest.cs
+++CreateUserCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\appuser\createuser\createusercommandresponse.cs
+++CreateProduct
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\createproduct\
+++DeleteProduct
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\deleteproduct\
+++UpdateProduct
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\updateproduct\
+++DeleteProductImageCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\deleteproductimage\deleteproductimagecommandhandler.cs
+++DeleteProductImageCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\deleteproductimage\deleteproductimagecommandrequest.cs
+++DeleteProductImageCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\productimagefile\deleteproductimage\deleteproductimagecommandresponse.cs
 ++IReadRepository.cs
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\repositories\ireadrepository.cs
 ++IRepository.cs
@@ -306,14 +420,45 @@ i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\validators\products\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\viewmodels\products\
 ++FluentValidation (10.4.0)
-i:{23fcb568-fc56-485f-810c-673b6d929378}:>704
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>902
 ++FluentValidation.AspNetCore (10.4.0)
-i:{23fcb568-fc56-485f-810c-673b6d929378}:>703
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>900
 ++FluentValidation.DependencyInjectionExtensions (10.4.0)
-i:{23fcb568-fc56-485f-810c-673b6d929378}:>701
-++ETicaretAPI.Domain
-i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\bin\debug\net6.0\eticaretapi.domain.dll
-i:{3cb84e1d-11c9-4916-9b98-cd423be82404}:ETicaretAPI.Domain
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>898
+++MediatR (10.0.1)
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>901
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>904
+++Microsoft.AspNetCore.Http (2.2.2)
+i:{23fcb568-fc56-485f-810c-673b6d929378}:>903
+++IAzureStorage.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\azure\iazurestorage.cs
+++ILocalStorage.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\abstractions\storage\local\ilocalstorage.cs
+++CreateProductCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\createproduct\createproductcommandhandler.cs
+++CreateProductCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\createproduct\createproductcommandrequest.cs
+++CreateProductCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\createproduct\createproductcommandresponse.cs
+++DeleteProductCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\deleteproduct\deleteproductcommandhandler.cs
+++DeleteProductCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\deleteproduct\deleteproductcommandrequest.cs
+++DeleteProductCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\deleteproduct\deleteproductcommandresponse.cs
+++UpdateProductCommandHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\updateproduct\updateproductcommandhandler.cs
+++UpdateProductCommandRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\updateproduct\updateproductcommandrequest.cs
+++UpdateProductCommandResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\commands\product\updateproduct\updateproductcommandresponse.cs
+++GetAllProducts
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getallproducts\
+++GetProductById
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getproductbyid\
+++GetProductImages
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\productimagefile\getproductimages\
 ++ICustomerReadRepository.cs
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\repositories\customer\icustomerreadrepository.cs
 ++ICustomerWriteRepository.cs
@@ -344,21 +489,23 @@ i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\viewmodels\products\vm_create_product.cs
 ++VM_Update_Product.cs
 i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\viewmodels\products\vm_update_product.cs
-++Entities
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\
-++Common
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\common\
-++Customer.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\customer.cs
-++File.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\file.cs
-++InvoiceFile.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\invoicefile.cs
-++Order.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\order.cs
-++Product.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\product.cs
-++ProductImageFile.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\productimagefile.cs
-++BaseEntity.cs
-i:{9cb2d968-d63b-45c6-9c57-ba4d72702d62}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.domain\entities\common\baseentity.cs
+++GetAllProductsQueryHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getallproducts\getallproductsqueryhandler.cs
+++GetAllProductsQueryRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getallproducts\getallproductsqueryrequest.cs
+++GetAllProductsQueryResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getallproducts\getallproductsqueryresponse.cs
+++GetProductByIdQueryHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getproductbyid\getproductbyidqueryhandler.cs
+++GetProductByIdQueryRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getproductbyid\getproductbyidqueryrequest.cs
+++GetProductByIdQueryResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\product\getproductbyid\getproductbyidqueryresponse.cs
+++GetProductImagesQueryHandler.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\productimagefile\getproductimages\getproductimagesqueryhandler.cs
+++GetProductImagesQueryRequest.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\productimagefile\getproductimages\getproductimagesqueryrequest.cs
+++GetProductImagesQueryResponse.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\features\queries\productimagefile\getproductimages\getproductimagesqueryresponse.cs
+++AuthenticationErrorException.cs
+i:{23fcb568-fc56-485f-810c-673b6d929378}:c:\users\mehmet kemal\desktop\uygulama\eticaretapi\core\eticaretapi.application\exceptions\authenticationerrorexception.cs

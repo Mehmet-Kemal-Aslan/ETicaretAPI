@@ -28,8 +28,8 @@ namespace ETicaretAPI.Infrastructure.Services.Storage
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
             token.Expiration = DateTime.UtcNow.AddMinutes(minute);
             JwtSecurityToken securityToken = new(
-                audience: _configuration["Token:Audience"],
-                issuer: _configuration["Token:Issuer"],
+                audience: "www.siteadı.com",
+                issuer: "www.benimAPI.com",
                 expires: token.Expiration,
                 notBefore: DateTime.UtcNow,
                 signingCredentials: signingCredentials
