@@ -17,3 +17,4 @@ C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Infrastructure\ETicaretAPI.In
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\refint\ETicaretAPI.Infrastructure.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.pdb
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ref\ETicaretAPI.Infrastructure.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.sourcelink.json

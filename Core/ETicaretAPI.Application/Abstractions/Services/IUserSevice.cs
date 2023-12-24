@@ -1,4 +1,5 @@
 ﻿using ETicaretAPI.Application.DTOs.User;
+using ETicaretAPI.Domain.Entities.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

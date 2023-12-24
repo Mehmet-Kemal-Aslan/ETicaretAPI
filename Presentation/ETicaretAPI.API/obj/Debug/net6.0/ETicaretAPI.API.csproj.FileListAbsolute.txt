@@ -78,3 +78,9 @@ C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.CodeDom.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Management.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.sourcelink.json
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.ETicaretAPI.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.build.ETicaretAPI.API.props
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ETicaretAPI.API.props
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ETicaretAPI.API.props
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\staticwebassets.pack.json
