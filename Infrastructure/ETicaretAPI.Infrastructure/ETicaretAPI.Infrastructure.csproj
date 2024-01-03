@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\Token\" />
     <Folder Include="Services\Storage\AWS\" />
+    <Folder Include="Services\Token\" />
   </ItemGroup>
 
   <ItemGroup>

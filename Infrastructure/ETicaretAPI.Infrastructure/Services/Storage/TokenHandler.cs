@@ -20,13 +20,13 @@ namespace ETicaretAPI.Infrastructure.Services.Storage
             _configuration = configuration;
         }
 
-        public Token CreateAccessToken(int minute)
+        public Token CreateAccessToken(int second)
         {
             Application.DTOs.Token token = new();
 
             SymmetricSecurityKey securityKey = new(Encoding.UTF8.GetBytes("Oylesine bir security key"));
             SigningCredentials signingCredentials = new(securityKey, SecurityAlgorithms.HmacSha256);
-            token.Expiration = DateTime.UtcNow.AddMinutes(minute);
+            token.Expiration = DateTime.UtcNow.AddSeconds(second);
             JwtSecurityToken securityToken = new(
                 audience: "www.siteadı.com",
                 issuer: "www.benimAPI.com",
