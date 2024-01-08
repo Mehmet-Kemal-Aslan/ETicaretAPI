@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace ETicaretAPI.Application.Abstractions.Services
 {
-    public interface IUserSevice
+    public interface IUserService
     {
         Task<CreateUserResponse> CreateAsync(CreateUser model);
-        Task UpdateRefreshToken(string refreshToken, string userId, DateTime accessTokenDate, int refreshTokenLifetime);
+        Task UpdateRefreshToken(string refreshToken, AppUser user, DateTime accessTokenDate, int addOnAccessTokenDate);
     }
 }
