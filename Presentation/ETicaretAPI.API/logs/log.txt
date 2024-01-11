@@ -1,0 +1,56 @@
+2024-01-11 18:52:19.407 +03:00 [INF] User profile is available. Using 'C:\Users\Mehmet Kemal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-11 18:52:20.487 +03:00 [INF] Now listening on: https://localhost:7016
+2024-01-11 18:52:20.491 +03:00 [INF] Now listening on: http://localhost:5016
+2024-01-11 18:52:20.498 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 18:52:20.499 +03:00 [INF] Hosting environment: Development
+2024-01-11 18:52:20.501 +03:00 [INF] Content root path: C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-01-11 18:52:23.654 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/index.html - -
+2024-01-11 18:52:24.265 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/index.html - - - 200 - text/html;charset=utf-8 613.9977ms
+2024-01-11 18:52:24.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - -
+2024-01-11 18:52:24.273 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_vs/browserLink - -
+2024-01-11 18:52:24.283 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - - - 200 13766 application/javascript;+charset=utf-8 9.1047ms
+2024-01-11 18:52:24.442 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 168.6747ms
+2024-01-11 18:52:24.501 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - -
+2024-01-11 18:52:24.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 287.5208ms
+2024-01-11 18:56:02.092 +03:00 [INF] User profile is available. Using 'C:\Users\Mehmet Kemal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-11 18:56:02.437 +03:00 [INF] Now listening on: https://localhost:7016
+2024-01-11 18:56:02.439 +03:00 [INF] Now listening on: http://localhost:5016
+2024-01-11 18:56:02.442 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 18:56:02.443 +03:00 [INF] Hosting environment: Development
+2024-01-11 18:56:02.444 +03:00 [INF] Content root path: C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-01-11 18:56:03.069 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/index.html - -
+2024-01-11 18:56:03.398 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/index.html - - - 200 - text/html;charset=utf-8 332.2137ms
+2024-01-11 18:56:03.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - -
+2024-01-11 18:56:03.399 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_vs/browserLink - -
+2024-01-11 18:56:03.417 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - - - 200 13766 application/javascript;+charset=utf-8 17.7498ms
+2024-01-11 18:56:03.502 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.0019ms
+2024-01-11 18:56:03.559 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - -
+2024-01-11 18:56:03.747 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 187.8337ms
+2024-01-11 18:56:45.930 +03:00 [INF] User profile is available. Using 'C:\Users\Mehmet Kemal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-11 18:56:46.273 +03:00 [INF] Now listening on: https://localhost:7016
+2024-01-11 18:56:46.274 +03:00 [INF] Now listening on: http://localhost:5016
+2024-01-11 18:56:46.278 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 18:56:46.279 +03:00 [INF] Hosting environment: Development
+2024-01-11 18:56:46.280 +03:00 [INF] Content root path: C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-01-11 18:56:50.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/index.html - -
+2024-01-11 18:56:50.381 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/index.html - - - 200 - text/html;charset=utf-8 316.2955ms
+2024-01-11 18:56:50.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - -
+2024-01-11 18:56:50.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_vs/browserLink - -
+2024-01-11 18:56:50.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - - - 200 13766 application/javascript;+charset=utf-8 5.7102ms
+2024-01-11 18:56:50.467 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 70.9373ms
+2024-01-11 18:56:50.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - -
+2024-01-11 18:56:50.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 190.5732ms
+2024-01-11 18:59:06.460 +03:00 [INF] User profile is available. Using 'C:\Users\Mehmet Kemal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-11 18:59:06.814 +03:00 [INF] Now listening on: https://localhost:7016
+2024-01-11 18:59:06.816 +03:00 [INF] Now listening on: http://localhost:5016
+2024-01-11 18:59:06.821 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-11 18:59:06.822 +03:00 [INF] Hosting environment: Development
+2024-01-11 18:59:06.823 +03:00 [INF] Content root path: C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
+2024-01-11 18:59:07.508 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/index.html - -
+2024-01-11 18:59:07.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/index.html - - - 200 - text/html;charset=utf-8 329.5457ms
+2024-01-11 18:59:07.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_vs/browserLink - -
+2024-01-11 18:59:07.846 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - -
+2024-01-11 18:59:07.854 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_framework/aspnetcore-browser-refresh.js - - - 200 13766 application/javascript;+charset=utf-8 8.4181ms
+2024-01-11 18:59:07.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.8235ms
+2024-01-11 18:59:08.003 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - -
+2024-01-11 18:59:08.294 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7016/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.1262ms
