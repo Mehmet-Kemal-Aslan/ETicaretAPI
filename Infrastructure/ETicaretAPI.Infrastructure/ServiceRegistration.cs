@@ -6,6 +6,7 @@ using ETicaretAPI.Infrastructure.Services;
 using ETicaretAPI.Infrastructure.Services.Local;
 using ETicaretAPI.Infrastructure.Services.Storage;
 using ETicaretAPI.Infrastructure.Services.Storage.Azure;
+using ETicaretAPI.Infrastructure.Services.Token;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;

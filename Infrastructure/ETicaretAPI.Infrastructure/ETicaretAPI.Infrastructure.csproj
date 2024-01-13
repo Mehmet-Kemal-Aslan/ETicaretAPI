@@ -13,7 +13,6 @@
 
   <ItemGroup>
     <Folder Include="Services\Storage\AWS\" />
-    <Folder Include="Services\Token\" />
   </ItemGroup>
 
   <ItemGroup>

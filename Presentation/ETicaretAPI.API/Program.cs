@@ -11,6 +11,10 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Serilog;
 using Serilog.Core;
+using Serilog.Sinks.PostgreSQL;
+using Microsoft.IdentityModel.Logging;
+using Serilog.Context;
+using ETicaretAPI.API.Configurations.ColumnWriters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,7 +33,19 @@ policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHe
 Logger log = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File("logs/log.txt")
-    .WriteTo.PostgreSQL("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=ETicaretAPIDb;", "logs", needAutoCreateTable: true)
+    .WriteTo.PostgreSQL("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=ETicaretAPIDb;", "logs", needAutoCreateTable: true,
+    columnOptions: new Dictionary<string, ColumnWriterBase>
+    {
+        {"message", new RenderedMessageColumnWriter() },
+        {"message_template", new MessageTemplateColumnWriter() },
+        {"levet", new LevelColumnWriter() },
+        {"time_stamp", new TimestampColumnWriter() },
+        {"exception", new ExceptionColumnWriter() },
+        {"log_event", new LogEventSerializedColumnWriter() },
+        {"user_name", new UsernameColumnWriter() }
+    })
+    .Enrich.FromLogContext()
+    .MinimumLevel.Information()
     .CreateLogger();
 builder.Host.UseSerilog(log);
 
@@ -72,6 +88,13 @@ app.UseHttpsRedirection();
 
 app.UseAuthentication();
 app.UseAuthorization();
+
+app.Use(async(context, next) =>
+{
+    var username = context.User?.Identity?.IsAuthenticated != null || true ? context.User.Identity.Name : null;
+    LogContext.PushProperty("user_name", username);
+    await next();
+});
 
 app.MapControllers();
 
