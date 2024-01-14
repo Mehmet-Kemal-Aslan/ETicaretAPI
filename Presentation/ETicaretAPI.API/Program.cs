@@ -15,6 +15,7 @@ using Serilog.Sinks.PostgreSQL;
 using Microsoft.IdentityModel.Logging;
 using Serilog.Context;
 using ETicaretAPI.API.Configurations.ColumnWriters;
+using Microsoft.AspNetCore.HttpLogging;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,18 +37,28 @@ Logger log = new LoggerConfiguration()
     .WriteTo.PostgreSQL("User ID=postgres;Password=123456;Host=localhost;Port=5432;Database=ETicaretAPIDb;", "logs", needAutoCreateTable: true,
     columnOptions: new Dictionary<string, ColumnWriterBase>
     {
-        {"message", new RenderedMessageColumnWriter() },
-        {"message_template", new MessageTemplateColumnWriter() },
-        {"levet", new LevelColumnWriter() },
-        {"time_stamp", new TimestampColumnWriter() },
-        {"exception", new ExceptionColumnWriter() },
-        {"log_event", new LogEventSerializedColumnWriter() },
-        {"user_name", new UsernameColumnWriter() }
+        { "message", new RenderedMessageColumnWriter() },
+        { "message_template", new MessageTemplateColumnWriter() },
+        { "levet", new LevelColumnWriter() },
+        { "time_stamp", new TimestampColumnWriter() },
+        { "exception", new ExceptionColumnWriter() },
+        { "log_event", new LogEventSerializedColumnWriter() },
+        { "user_name", new UsernameColumnWriter() }
     })
+    .WriteTo.Seq("http://localhost:5341")
     .Enrich.FromLogContext()
     .MinimumLevel.Information()
     .CreateLogger();
 builder.Host.UseSerilog(log);
+
+builder.Services.AddHttpLogging(logging =>
+{
+    logging.LoggingFields = HttpLoggingFields.All;
+    logging.RequestHeaders.Add("sec-ch-ua");
+    logging.MediaTypeOptions.AddText("application/javascript");
+    logging.RequestBodyLogLimit = 4096;
+    logging.ResponseBodyLogLimit = 4096;
+});
 
 builder.Services.AddControllers(options => options.Filters.Add<ValidationFilter>())
     .AddFluentValidation(configuration => configuration.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>())
@@ -81,6 +92,10 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseStaticFiles();
+
+app.UseSerilogRequestLogging();
+
+app.UseHttpLogging();
 
 app.UseCors();
 
