@@ -16,6 +16,7 @@ using Microsoft.IdentityModel.Logging;
 using Serilog.Context;
 using ETicaretAPI.API.Configurations.ColumnWriters;
 using Microsoft.AspNetCore.HttpLogging;
+using ETicaretAPI.API.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -91,6 +92,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.ConfigureExceptionHandler<Program>(app.Services.GetRequiredService<ILogger<Program>>());
+
 app.UseStaticFiles();
 
 app.UseSerilogRequestLogging();
