@@ -3,12 +3,12 @@
 - Works with PostgreSql in docker
 - Works with Azure for file storage.
 
-###Architecture
+### Architecture
 - Onion Architecture
 - Generic Repository Design Pattern
 - CQRS
 
-###Technologies
+### Technologies
 - EF core
 - FluentValidation
 - Automapper
@@ -18,7 +18,7 @@
 - Guard
 - SeriLog
 
-###
+### Project Features and Functionality
 - API
 - CRUD 
 - Pagination
