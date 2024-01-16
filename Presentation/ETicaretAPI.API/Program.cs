@@ -17,6 +17,7 @@ using Serilog.Context;
 using ETicaretAPI.API.Configurations.ColumnWriters;
 using Microsoft.AspNetCore.HttpLogging;
 using ETicaretAPI.API.Middlewares;
+using ETicaretAPI.SignalR;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,13 +25,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
+builder.Services.AddSignalRServices();
 
 builder.Services.AddStorage<AzureStorage>();
 //builder.Services.AddStorage<LocalStorage>();
 //builder.Services.AddStorage(AWS);
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
-policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod()));
+policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod().AllowCredentials()));
 
 Logger log = new LoggerConfiguration()
     .WriteTo.Console()
@@ -116,5 +118,7 @@ app.Use(async(context, next) =>
 });
 
 app.MapControllers();
+
+app.MapHubs();
 
 app.Run();

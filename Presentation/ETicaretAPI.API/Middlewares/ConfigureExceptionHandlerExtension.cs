@@ -24,7 +24,7 @@ namespace ETicaretAPI.API.Middlewares
                         {
                             StatusCode = context.Response.StatusCode,
                             Message = contextFeature.Error.Message,
-                            Title = "Hata alınd!"
+                            Title = "Hata alındı!"
                         }));
                     }
                 });

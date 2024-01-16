@@ -97,3 +97,5 @@ C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.dll
+C:\Users\Mehmet Kemal\Desktop\Uygulama\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.pdb
