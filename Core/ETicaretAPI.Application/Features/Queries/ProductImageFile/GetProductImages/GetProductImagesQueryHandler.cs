@@ -27,7 +27,9 @@ namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductIm
             Domain.Entities.Product? product = await _productReadRepository.Table.Include(p => p.ProductImageFiles).FirstOrDefaultAsync(p => p.Id == request.Id);
             return product?.ProductImageFiles.Select(p => new GetProductImagesQueryResponse
             {
-                Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",
+
+                //Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",              Azure
+                Path = $"{p.Path}",
                 FileName = p.FileName,
                 Id = p.Id
             }).ToList();

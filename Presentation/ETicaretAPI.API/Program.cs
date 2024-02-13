@@ -27,8 +27,8 @@ builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
 builder.Services.AddSignalRServices();
 
-builder.Services.AddStorage<AzureStorage>();
-//builder.Services.AddStorage<LocalStorage>();
+//builder.Services.AddStorage<AzureStorage>();
+builder.Services.AddStorage<LocalStorage>();
 //builder.Services.AddStorage(AWS);
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>
