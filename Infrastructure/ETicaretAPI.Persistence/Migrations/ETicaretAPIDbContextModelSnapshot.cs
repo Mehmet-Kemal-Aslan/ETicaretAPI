@@ -37,6 +37,63 @@ namespace ETicaretAPI.Persistence.Migrations
                     b.ToTable("CustomerOrder");
                 });
 
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Basket", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Baskets");
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.BasketItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("BasketId")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("UpdatedDate")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("BasketId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("BasketItems");
+                });
+
             modelBuilder.Entity("ETicaretAPI.Domain.Entities.Customer", b =>
                 {
                     b.Property<int>("Id")
@@ -197,10 +254,7 @@ namespace ETicaretAPI.Persistence.Migrations
             modelBuilder.Entity("ETicaretAPI.Domain.Entities.Order", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Address")
                         .IsRequired()
@@ -424,6 +478,47 @@ namespace ETicaretAPI.Persistence.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Basket", b =>
+                {
+                    b.HasOne("ETicaretAPI.Domain.Entities.Identity.AppUser", "User")
+                        .WithMany("Baskets")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.BasketItem", b =>
+                {
+                    b.HasOne("ETicaretAPI.Domain.Entities.Basket", "Baskets")
+                        .WithMany("BasketItems")
+                        .HasForeignKey("BasketId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ETicaretAPI.Domain.Entities.Product", "Products")
+                        .WithMany("BasketItem")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Baskets");
+
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Order", b =>
+                {
+                    b.HasOne("ETicaretAPI.Domain.Entities.Basket", "Baskets")
+                        .WithOne("Order")
+                        .HasForeignKey("ETicaretAPI.Domain.Entities.Order", "Id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Baskets");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("ETicaretAPI.Domain.Entities.Identity.AppRole", null)
@@ -503,6 +598,24 @@ namespace ETicaretAPI.Persistence.Migrations
                         .HasForeignKey("ProductsId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Basket", b =>
+                {
+                    b.Navigation("BasketItems");
+
+                    b.Navigation("Order")
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Identity.AppUser", b =>
+                {
+                    b.Navigation("Baskets");
+                });
+
+            modelBuilder.Entity("ETicaretAPI.Domain.Entities.Product", b =>
+                {
+                    b.Navigation("BasketItem");
                 });
 #pragma warning restore 612, 618
         }

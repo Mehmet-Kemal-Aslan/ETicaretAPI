@@ -22,13 +22,15 @@ using ETicaretAPI.SignalR;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddHttpContextAccessor(); //Clienttan gelen rquest neticesinde oluþturulan hhtpContext nesnesine katmanlardaki classlar
+                                           //üzerinden(business logic) eriþebilmemizi saðlayan servistir.
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
 builder.Services.AddSignalRServices();
 
-//builder.Services.AddStorage<AzureStorage>();
-builder.Services.AddStorage<LocalStorage>();
+builder.Services.AddStorage<AzureStorage>();
+//builder.Services.AddStorage<LocalStorage>();
 //builder.Services.AddStorage(AWS);
 
 builder.Services.AddCors(options => options.AddDefaultPolicy(policy =>

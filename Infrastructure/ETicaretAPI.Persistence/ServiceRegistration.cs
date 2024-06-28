@@ -13,6 +13,10 @@ using ETicaretAPI.Domain.Entities.Identity;
 using ETicaretAPI.Persistence.Services;
 using ETicaretAPI.Application.Abstractions.Services;
 using ETicaretAPI.Application.Abstractions.Services.Authentication;
+using ETicaretAPI.Persistence.Repositories.Basket;
+using ETicaretAPI.Application.Repositories.Basket;
+using ETicaretAPI.Application.Repositories.BasketItem;
+using ETicaretAPI.Persistence.Repositories.BasketItem;
 
 namespace ETicaretAPI.Persistence
 {
@@ -20,8 +24,8 @@ namespace ETicaretAPI.Persistence
     {
         public static void AddPersistenceServices(this IServiceCollection services)
         {
-            services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString), 
-                ServiceLifetime.Singleton);
+            services.AddDbContext<ETicaretAPIDbContext>(options => options.UseNpgsql(Configuration.ConnectionString));//, 
+                //ServiceLifetime.Singleton);
             services.AddIdentity<AppUser, AppRole>(options =>
             {
                 options.Password.RequiredLength = 3;
@@ -42,11 +46,16 @@ namespace ETicaretAPI.Persistence
             services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
             services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
             services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+            services.AddScoped<IBasketReadRepository, BasketReadRepository>();
+            services.AddScoped<IBasketWriteRepository, BasketWriteRepository>(); 
+            services.AddScoped<IBasketItemReadRepository, BasketItemReadRepository>();
+            services.AddScoped<IBasketItemWriteRepository, BasketItemWriteRepository>();
 
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IExternalAuthentication, AuthService>();
             services.AddScoped<IInternalAuthentication, AuthService>();
+            services.AddScoped<IBasketService, BasketService>();
         }
     }
 }

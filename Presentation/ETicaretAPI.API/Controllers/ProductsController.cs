@@ -2,6 +2,7 @@
 using ETicaretAPI.Application.Features.Commands.Product.CreateProduct;
 using ETicaretAPI.Application.Features.Commands.Product.DeleteProduct;
 using ETicaretAPI.Application.Features.Commands.Product.UpdateProduct;
+using ETicaretAPI.Application.Features.Commands.ProductImageFile.ChangeShowCaseImage;
 using ETicaretAPI.Application.Features.Commands.ProductImageFile.DeleteProductImage;
 using ETicaretAPI.Application.Features.Commands.ProductImageFile.UploadProductImage;
 using ETicaretAPI.Application.Features.Queries.Product.GetAllProducts;
@@ -128,6 +129,14 @@ namespace ETicaretAPI.API.Controllers
         public async Task<IActionResult> GetProductImages([FromRoute] GetProductImagesQueryRequest getProductImagesQueryRequest)
         {
             List<GetProductImagesQueryResponse> response = await _mediator.Send(getProductImagesQueryRequest);
+            return Ok(response);
+        }
+
+        [HttpPut("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+        public async Task <IActionResult> ChangeShowCaseImage([FromQuery] ChangeShowCaseImageCommandRequest changeShowCaseImageCommandRequest)
+        {
+            ChangeShowCaseImageCommandResponse response = await _mediator.Send(changeShowCaseImageCommandRequest);
             return Ok(response);
         }
     }

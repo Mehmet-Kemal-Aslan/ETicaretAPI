@@ -29,7 +29,7 @@ namespace ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductIm
             {
 
                 //Path = $"{configuration["BaseStorageUrl"]}/{p.Path}",              Azure
-                Path = $"{p.Path}",
+                Path = $"https://minieticaretprojesi.blob.core.windows.net/{p.Path}",
                 FileName = p.FileName,
                 Id = p.Id
             }).ToList();
