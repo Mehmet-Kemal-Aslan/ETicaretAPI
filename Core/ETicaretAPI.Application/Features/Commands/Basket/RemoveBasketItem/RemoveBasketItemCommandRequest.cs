@@ -9,6 +9,6 @@ namespace ETicaretAPI.Application.Features.Commands.Basket.RemoveBasketItem
 {
     public class RemoveBasketItemCommandRequest : IRequest<RemoveBasketItemCommandResponse>
     {
-        public int Id { get; set; }
+        public int basketItemId { get; set; }
     }
 }

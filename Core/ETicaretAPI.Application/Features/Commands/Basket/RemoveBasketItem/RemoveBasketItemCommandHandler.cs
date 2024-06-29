@@ -19,7 +19,7 @@ namespace ETicaretAPI.Application.Features.Commands.Basket.RemoveBasketItem
 
         public async Task<RemoveBasketItemCommandResponse> Handle(RemoveBasketItemCommandRequest request, CancellationToken cancellationToken)
         {
-            await _basketService.RemoveBasketItemByIdAsync(request.Id);
+            await _basketService.RemoveBasketItemByIdAsync(request.basketItemId);
             return new();
         }
     }

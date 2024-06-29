@@ -9,7 +9,7 @@ namespace ETicaretAPI.Application.Features.Commands.Basket.UpdateQuantity
 {
     public class UpdateQuantityCommandRequest : IRequest<UpdateQuantityCommandResponse>
     {
-        public int Id { get; set; }
+        public int basketItemId { get; set; }
         public int Quantity { get; set; }
     }
 }

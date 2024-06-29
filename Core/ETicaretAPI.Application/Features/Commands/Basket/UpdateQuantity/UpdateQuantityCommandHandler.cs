@@ -22,7 +22,7 @@ namespace ETicaretAPI.Application.Features.Commands.Basket.UpdateQuantity
         {
             await _basketService.UpdateQuantityAsync(new()
             {
-                BasketItemId = request.Id,
+                BasketItemId = request.basketItemId,
                 Quantity = request.Quantity,
             });
             return new ();
